@@ -5,7 +5,7 @@
 
 function isPalindrome(string) {
   let reverse = string.split("").reverse().join("");
-  return reverse.toLowerCase() === string ? true : false;
+  return reverse.toLowerCase() === string.toLowerCase() ? true : false;
 }
 
 //MAIN
